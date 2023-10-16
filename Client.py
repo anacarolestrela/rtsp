@@ -1,3 +1,4 @@
+#referencia: Jenish Mangukiya https://www.youtube.com/watch?v=bSs7H1NluIQ&ab_channel=JenishMangukiya
 from tkinter import *
 import tkinter.messagebox as tkMessageBox
 from PIL import Image, ImageTk

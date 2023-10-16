@@ -1,3 +1,4 @@
+#referencia: Jenish Mangukiya https://www.youtube.com/watch?v=bSs7H1NluIQ&ab_channel=JenishMangukiya
 class VideoStream:
 	def __init__(self, filename):
 		self.filename = filename

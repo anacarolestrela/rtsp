@@ -1,3 +1,4 @@
+#referencia: Jenish Mangukiya https://www.youtube.com/watch?v=bSs7H1NluIQ&ab_channel=JenishMangukiya
 import sys, socket
 
 from ServerWorker import ServerWorker
