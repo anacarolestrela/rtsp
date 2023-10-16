@@ -154,7 +154,7 @@ class Client:
 			# atualiza a sequencia
 			self.requestSent = self.SETUP
 		
-		# Play request
+		# request de  Play 
 		elif requestCode == self.PLAY and self.state == self.READY:
 			# atualiza a sequencia
 			self.rtspSeq = self.rtspSeq + 1
@@ -167,7 +167,7 @@ class Client:
 			# atualiza a sequencia
 			self.requestSent = self.PLAY
 		
-		# Pause request
+		#request de  Pause 
 		elif requestCode == self.PAUSE and self.state == self.PLAYING:
 			# atualiza a sequencia
 			self.rtspSeq = self.rtspSeq + 1
@@ -181,7 +181,7 @@ class Client:
 			self.requestSent = self.PAUSE
 
 			
-		# Teardown request
+		# request de Teardown 
 		elif requestCode == self.TEARDOWN and not self.state == self.INIT:
 			# atualiza a sequencia
 

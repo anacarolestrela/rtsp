@@ -13,7 +13,7 @@ if __name__ == "__main__":
 	
 	root = Tk()
 	
-	# Create a new client
+	# Cria novo client
 	app = Client(root, serverAddr, serverPort, rtpPort, fileName)
 	app.master.title("RTPClient")	
 	root.mainloop()
